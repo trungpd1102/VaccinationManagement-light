@@ -1,0 +1,15 @@
+.border-box {
+	padding: 16px;
+	border: 1px solid #bfbcbca8;
+	position: relative;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+.title-box {
+	top: -16px;
+	background: #fff;
+	font-weight: 600;
+	font-size: 18px;
+	position:absolute;
+}

@@ -1,0 +1,17 @@
+.header {
+	font-size: 14px;
+	height: 45px;
+
+	background: hsl(185deg 21.58% 67.87% / 18%);
+}
+
+.header__item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.sub-nav-activated {
+	font-weight: bold;
+	border-bottom: 3px solid rgb(85, 175, 235);
+}

@@ -1,0 +1,50 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+html,
+body {
+	width: 100%;
+	height: 100%;
+	text-size-adjust: 100%;
+}
+
+table {
+	border: 1px solid #dee2e6;
+}
+
+th {
+	border-left: 1px solid #dee2e6 !important;
+	background-color: #fafafa;
+	padding: 13px 18px !important;
+}
+td {
+	padding: 20px 20px !important;
+}
+
+td,
+th {
+	text-transform: capitalize;
+	text-align: left !important;
+	vertical-align: middle !important;
+}
+
+button {
+	font-weight: 500 !important;
+	text-transform: uppercase !important;
+	font-size: 13px !important;
+}
+
+ol,
+ul {
+	padding: 0;
+	margin: 0 !important;
+}
+
+label {
+	cursor: inherit;
+}
+
+label::first-letter {
+	text-transform: uppercase;
+}

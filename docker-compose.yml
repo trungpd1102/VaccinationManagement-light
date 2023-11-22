@@ -1,0 +1,48 @@
+version: '3.8'
+
+services:
+  backend:
+    container_name: node_backend
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 3055:3055
+    volumes:
+      - .:/app
+    environment:
+      PORT: 3055
+      NODE_ENV: pro
+    networks:
+      - common
+    depends_on:
+      - mongo
+
+  mongo:
+    container_name: mongo_db
+    image: mongo:6.0.5
+    ports:
+      - 27017:27017
+    # volumes:
+    #   - ./data:/data/db
+    networks:
+      - common
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: 
+      MONGO_INITDB_ROOT_PASSWORD: 
+      MONGO_INITDB_DATABASE: 
+    restart: unless-stopped
+
+  nginx:
+    container_name: nginx
+    restart: always
+    build:
+      context: .
+      dockerfile: ./nginx/Dockerfile
+    ports:
+      - 80:80
+    depends_on:
+      - backend
+networks:
+  common:
+    driver: bridge

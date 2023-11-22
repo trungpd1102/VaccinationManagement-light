@@ -1,0 +1,8 @@
+.detail-modal__header {
+	height: 11%;
+	background: var(--bgHeader);
+	/* ; */
+	padding: 0;
+	width: 100%;
+	margin-left: 0;
+}

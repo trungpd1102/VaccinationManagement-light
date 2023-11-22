@@ -1,0 +1,23 @@
+.container__login {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.card__login {
+	box-shadow: 5px 8px 30px 0 rgba(0, 0, 0, 0.15);
+	border: none;
+}
+
+.card-header__login {
+	border: none;
+	background: white;
+	font-size: 1.6rem;
+	color: #006355;
+	font-weight: bold;
+}
+
+.form-group {
+	margin: 10px 0;
+}

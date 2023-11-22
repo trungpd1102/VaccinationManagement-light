@@ -1,0 +1,75 @@
+table > :not(caption) > * > * {
+	font-size: 14px;
+}
+
+.table {
+	margin-bottom: 0;
+}
+
+.table-wrapper {
+	/* height: 75vh; */
+}
+
+.flex-1 {
+	flex: 1;
+}
+
+.h-75vh {
+	height: 75vh !important;
+}
+.h-80vh {
+	height: 80vh !important;
+}
+.h-85vh {
+	height: 85vh !important;
+}
+.h-90vh {
+	height: 90vh !important;
+}
+.h-95vh {
+	height: 95vh !important;
+}
+
+.input-group > .form-control {
+	flex: 0.5;
+}
+.input-group {
+	padding: 0;
+}
+
+.header {
+	height: 45px;
+	display: flex;
+	align-content: center;
+	background: hsla(185, 54%, 69%, 0.18);
+}
+
+.padding {
+	padding: 15px;
+}
+
+.filter-nangcao {
+	position: relative;
+	height: 38px;
+}
+.header-content {
+	position: relative;
+}
+/* .ticket {
+	cursor: pointer;
+	margin-top: 133px;
+	background: rgb(221, 84, 84);
+	height: 35px;
+	color: #fff;
+	width: 130px;
+	padding: 4px;
+	text-align: center;
+	margin-right: 2px;
+}
+.edit{
+background-color: rgb(44, 129, 240);
+}
+.delete{
+	width: 140px;
+
+} */

@@ -1,0 +1,107 @@
+.header {
+	font-size: 14px;
+	height: 45px;
+
+	background: hsl(185deg 21.58% 67.87% / 18%);
+}
+
+.header__item {
+	font-size: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.sub-nav-activated {
+	font-weight: bold;
+	border-bottom: 3px solid rgb(85, 175, 235);
+}
+.table-scroll__bacsi {
+	overflow-x: auto;
+}
+.portlet.light.bordered {
+	border: 1px solid #e7ecf1 !important;
+}
+
+.portlet.light {
+	padding: 12px 20px 15px;
+	background-color: #fff;
+}
+.portlet {
+	box-shadow: 0 2px 3px 2px rgba(0, 0, 0, 0.03);
+}
+.portlet {
+	margin-top: 0;
+	margin-bottom: 25px;
+	padding: 0;
+	border-radius: 2px;
+}
+.portlet.light.bordered > .portlet-title {
+	border-bottom: 1px solid #eef1f5;
+}
+
+.portlet.light > .portlet-title {
+	padding: 0;
+	min-height: 48px;
+}
+.portlet.bordered > .portlet-title {
+	border-bottom: 0;
+}
+.portlet > .portlet-title {
+	border-bottom: 1px solid #eee;
+	padding: 0;
+	margin-bottom: 10px;
+	min-height: 41px;
+	-webkit-border-radius: 2px 2px 0 0;
+	-moz-border-radius: 2px 2px 0 0;
+	-ms-border-radius: 2px 2px 0 0;
+	-o-border-radius: 2px 2px 0 0;
+	border-radius: 2px 2px 0 0;
+}
+.portlet.light > .portlet-title > .caption {
+	color: #666;
+	padding: 10px 0;
+}
+.portlet > .portlet-title > .caption {
+	float: left;
+	display: inline-block;
+	font-size: 18px;
+	line-height: 18px;
+	padding: 10px 0;
+}
+.portlet.light > .portlet-title > .caption > .caption-subject {
+	font-size: 16px;
+}
+.caption-subject {
+	font-size: 17px;
+}
+.uppercase {
+	text-transform: uppercase !important;
+}
+.portlet.light .portlet-body {
+	padding-top: 8px;
+}
+.portlet > .portlet-body {
+	clear: both;
+	-webkit-border-radius: 0 0 2px 2px;
+	-moz-border-radius: 0 0 2px 2px;
+	-ms-border-radius: 0 0 2px 2px;
+	-o-border-radius: 0 0 2px 2px;
+	border-radius: 0 0 2px 2px;
+}
+
+.configsection {
+	border-bottom: 1px solid #EEE;
+	display: flex;
+	padding: 11px 0px;
+	font-size: 15px;
+}
+.configitem {
+	display: inline-block;
+	float: right;
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: left;
+}
