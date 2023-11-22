@@ -37,28 +37,11 @@ export default {
 	width: fit-content;
 	border: none;
 	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-	/* animation-name: ToptoCenter;
-	animation-duration: 0.5s; */
 }
-/* @keyframes ToptoCenter{
-
-	0%{
-		top:-300px;
-		
-
-	}
-
-	100%{
-		top:0px;
-
-
-	}
-} */
 
 .base-modal__dialog {
 	justify-content: center;
 	max-width: unset;
-	/* height: 100%; */
 	margin: 0px;
 	border: none;
 }

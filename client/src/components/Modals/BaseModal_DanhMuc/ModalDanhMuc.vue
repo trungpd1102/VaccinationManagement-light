@@ -41,23 +41,6 @@
 
 				<div v-if="buttonKho" class="col-md-4 p-1 text-left">
 					<slot name="search-area"></slot>
-
-					<!-- <div class="input-group">
-						<input
-							type="text"
-							class="form-control col-sm-10"
-							name="Keyword"
-							v-model="searchKeyword"
-							:placeholder="placeholder"
-						/>
-						<div id="frmSearch" class="input-group-btn dropdown">
-							<button tabindex="-1" class="btn btn-primary" type="button" @click="search">
-								<em class="fa fa-search"></em>
-							</button>
-							<button id="button1" type="button" class="btn btn-primary dropdown-toggle"></button>
-							<div class="dropdown-menu theme-panel pull-right dropdown-custom" role="menu"></div>
-						</div>
-					</div> -->
 				</div>
 				<div class="col-md-4">
 					<slot name="button"></slot>
